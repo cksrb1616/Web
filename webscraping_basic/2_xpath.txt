@@ -5,6 +5,12 @@
 /html/body/div[2]/div[3]/div[3]/div/div[2]/a
 //*[@id="account"]/a
 
+위의 주소 같은 것들이 xpath
+// 아래의 모든 항목
+* 이름을 상관하지 않고
+
+
+
 sibiling 같은 라인의 벨류들끼리 즉 스튜던트들은 sibling
 
 
