@@ -1,0 +1,28 @@
+/school/grade/class/student[2]
+/html/body/div/div/div/span/a...
+//*[@code="1-1-5"]
+
+/html/body/div[2]/div[3]/div[3]/div/div[2]/a
+//*[@id="account"]/a
+
+sibiling 같은 라인의 벨류들끼리 즉 스튜던트들은 sibling
+
+
+<school name="Nado Highschool">
+    <grade value="1">
+        <class value="1ban">
+            <student value="1bun" code="1-1-1">Lee</student>
+            <student value="2bun" code="1-1-2">Yoo</student>
+            <student value="3bun" code="1-1-3">Jo</student>
+            <student value="4bun" code="1-1-4">Kang</student>
+            <student value="5bun" code="1-1-5">Lee</student>
+        <class value="2ban">
+        <class value="3ban">
+        <class value="4ban">
+
+
+    </grade>
+
+    <grade value="2">
+    <grade value="3">
+</school>
