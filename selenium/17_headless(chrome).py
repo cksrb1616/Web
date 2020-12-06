@@ -2,8 +2,10 @@ from selenium import webdriver
 import time
 from bs4 import BeautifulSoup
 
-
-browser = webdriver.Chrome("/Users/minjunchoi/Documents/GitHub/Web/selenium/chromedriver")
+options = webdriver.ChromeOptions()
+options.headless = True
+options.add_argument("window-size=1920x1080")
+browser = webdriver.Chrome("/Users/minjunchoi/Documents/GitHub/Web/selenium/chromedriver", options=options)
 browser.maximize_window()
 
 # 페이지 이동
@@ -39,6 +41,7 @@ while True:
     prev_height = curr_height
 
 print("스크롤 완료")
+browser.get_screenshot_as_file("google-movie.png")
 
 soup = BeautifulSoup(browser.page_source, "lxml")
 
