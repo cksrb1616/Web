@@ -21,6 +21,11 @@ elem.click()
 # from selenium.webdriver.common.keys import Keys
 # elem.send_keys("stock")
 # elem.send_keys(Keys.ENTER)
+# elem = browser.find_element_by_tag_name("a")
+# elem = browser.find_element_by_name("q") 다음 검색창
+# elem = browser.find_elements_by_tag_name("a")
+# for e in elem:
+#     e.get_attrivute("href") 셀레니움에서는 ["href"]가 아닌 ()로 가
 
 # 3. id, pw 입력
 browser.find_element_by_id("id").send_keys("naver_id")
