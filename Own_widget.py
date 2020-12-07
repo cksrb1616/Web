@@ -3,7 +3,7 @@ import requests
 from bs4 import BeautifulSoup
 
 def create_soup(url):
-    headers = {"User-Agent":"Mozilla/5.0 (Macintosh; Intel Mac OS X 11_0_1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/87.0.4280.88 Safari/537.36"}
+    headers = {"User-Agent":"Mozilla/5.0 }
     res = requests.get(url, headers=headers)
     res.raise_for_status()
     soup = BeautifulSoup(res.text, "lxml")
